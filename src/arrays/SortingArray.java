@@ -12,8 +12,9 @@ public class SortingArray {
                 }
             }
         }
-        for(int x : arr) {
-            System.out.print(x + " ");
-        }
+        System.out.println(Arrays.toString(arr));
+//        for(int x : arr) {
+//            System.out.print(x + " ");
+//        }
     }
 }

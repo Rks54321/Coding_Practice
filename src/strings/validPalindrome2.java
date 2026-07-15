@@ -2,7 +2,7 @@ package strings;
 
 public class validPalindrome2 {
     static void main(String[] args) {
-        String s = "raca a car";
+        String s = "raca     a car";
         System.out.println(validPalindrome(s));
     }
     public static boolean validPalindrome(String s) {

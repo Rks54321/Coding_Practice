@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.ArrayList;
-//imporrt java
+
 public class GroupAnagram2 {
     static void main(String[] args) {
         String[] strs = {"eat","tea","tan","ate","nat","bat"};

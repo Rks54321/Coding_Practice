@@ -26,24 +26,25 @@ public class MaxDepthBinaryTree2 {
         System.out.println(maxDepth);
 
     }
+
     public static int maxDepth(TreeNode1 root) {
-        Queue<TreeNode1> elementQueue  = new LinkedList<>();
-        if(root == null) {
+        Queue<TreeNode1> elementQueue = new LinkedList<>();
+        if (root == null) {
             return 0;
         }
         elementQueue.add(root);
         int numbersOfLevels = 0;
-        while(true) {
+        while (true) {
             int nodeCountAtLevels = elementQueue.size();
-            if(nodeCountAtLevels == 0) {
+            if (nodeCountAtLevels == 0) {
                 return numbersOfLevels;
             }
-            while(nodeCountAtLevels > 0) {
+            while (nodeCountAtLevels > 0) {
                 TreeNode1 element = elementQueue.poll();
-                if(element.left != null) {
+                if (element.left != null) {
                     elementQueue.add(element.left);
                 }
-                if(element.right != null) {
+                if (element.right != null) {
                     elementQueue.add(element.right);
                 }
                 nodeCountAtLevels--;
@@ -52,3 +53,5 @@ public class MaxDepthBinaryTree2 {
         }
     }
 }
+
+

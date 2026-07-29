@@ -15,6 +15,7 @@ public class MergeIntervals3 {
             System.out.print(Arrays.toString(ans[i]));
             if(i != ans.length - 1) {
                 System.out.print(",");
+                
             }
         }
     }

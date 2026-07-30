@@ -2,7 +2,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
-public class MergeIntervals3 {
+public class MergeIntervals4 {
     static void main(String[] args) {
         int[][] intervals = {
                 {1,3},
@@ -10,10 +10,10 @@ public class MergeIntervals3 {
                 {8,10},
                 {15,18}
         };
-        int[][] ans = mergeIntervals(intervals);
-        for(int i = 0 ; i < ans.length; i++) {
-            System.out.print(Arrays.toString(ans[i]));
-            if(i != ans.length - 1) {
+        int[][] result = mergeIntervals(intervals);
+        for(int i = 0; i < result.length; i++) {
+            System.out.print(Arrays.toString(result[i]));
+            if(i != result.length-1) {
                 System.out.print(",");
             }
         }
@@ -24,7 +24,7 @@ public class MergeIntervals3 {
         List<int[]> result = new ArrayList<>();
         int[] curr = intervals[0];
         for(int i = 1; i < intervals.length; i++) {
-            if(curr[1] >= intervals[i][0]) {
+            if(curr[1] > intervals[i][0]) {
                 curr[1] = Math.max(curr[1], intervals[i][1]);
             } else {
                 result.add(curr);

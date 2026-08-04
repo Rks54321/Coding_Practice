@@ -12,7 +12,7 @@ public class MaxLenSubStWithTwoOccr {
             while(map.get(ch) > 2) {
                 char leftChar = s.charAt(left);
                 map.put(leftChar, map.get(leftChar)-1);
-
+                
                 if(map.get(leftChar) == 0) {
                     map.remove(leftChar);
                 }

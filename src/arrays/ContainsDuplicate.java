@@ -4,7 +4,7 @@ public class ContainsDuplicate {
     static void main(String[] args) {
         int[] nums = {1,2,3};
         System.out.println(containsDp(nums));
-        
+
     }
     public static boolean containsDp(int[] nums) {
         HashSet<Integer> set = new HashSet<>();

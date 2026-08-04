@@ -6,7 +6,6 @@ public class FibonacciSeries {
         int N = 8;
         for(int i =  0; i < N; i++) {
             System.out.print(a + " ");
-
             int c = a + b;
             a = b;
             b = c;

@@ -8,7 +8,7 @@ public class BestTimeToBuyandSell {
             min = Math.min(min, price);
             profit = Math.max(profit, price - min);
         }
-        
+
         System.out.println(profit);
     }
 }

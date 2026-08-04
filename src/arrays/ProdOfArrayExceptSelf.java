@@ -9,7 +9,6 @@ public class ProdOfArrayExceptSelf {
     public static int[] prodOfArrExSelf(int[] arr) {
         int[] left = new int[arr.length];
         int[] right = new int[arr.length];
-
         left[0] = 1;
         right[arr.length-1] = 1;
 

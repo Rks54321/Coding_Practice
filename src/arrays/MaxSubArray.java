@@ -13,6 +13,5 @@ public class MaxSubArray {
             maxSum = Math.max(maxSum, currentSum);
         }
         return maxSum;
-
     }
 }

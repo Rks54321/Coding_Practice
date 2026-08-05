@@ -15,7 +15,7 @@ public class MaxLenSubStrWithTwoOccr {
             }
             maxLen = Math.max(maxLen, right-left+1);
         }
-        
+
         System.out.println(maxLen);
     }
 }

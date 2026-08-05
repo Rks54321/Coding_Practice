@@ -15,7 +15,6 @@ public class ProdOfArrayExceptSelf {
         for(int i = 1; i < arr.length; i++) {
             left[i] = arr[i-1] * left[i-1];
         }
-
         for(int i = arr.length-2; i >= 0; i--) {
             right[i] = arr[i+1] * right[i+1];
         }

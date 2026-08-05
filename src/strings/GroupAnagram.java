@@ -23,7 +23,7 @@ public class GroupAnagram {
                 map.put(key, list);
             }
         }
-        
+
         return new ArrayList<>(map.values());
     }
 }

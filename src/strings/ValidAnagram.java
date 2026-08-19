@@ -13,7 +13,7 @@ public class ValidAnagram {
         for(int x : arr) {
             if(x != 0) return false;
         }
-        
+
         return true;
     }
 }

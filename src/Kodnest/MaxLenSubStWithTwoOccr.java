@@ -17,6 +17,7 @@ public class MaxLenSubStWithTwoOccr {
                     map.remove(leftChar);
                 }
                 left++;
+                
             }
             maxLen = Math.max(maxLen, right-left+1);
         }

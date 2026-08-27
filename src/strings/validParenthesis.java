@@ -23,7 +23,7 @@ public class validParenthesis {
                 }
             }
         }
-        
+
         return st.isEmpty();
     }
 }

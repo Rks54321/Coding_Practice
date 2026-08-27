@@ -9,7 +9,6 @@ public class FibonacciSeries {
             int c = a + b;
             a = b;
             b = c;
-
         }
     }
 }

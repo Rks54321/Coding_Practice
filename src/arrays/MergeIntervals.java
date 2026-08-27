@@ -18,6 +18,7 @@ public class MergeIntervals {
                 System.out.print(",");
             }
         }
+        
 //        System.out.println(Arrays.deepToString(ans));
     }
     public static int[][] mergeIntervals(int[][] intervals) {

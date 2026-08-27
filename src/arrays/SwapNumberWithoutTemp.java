@@ -10,6 +10,6 @@ public class SwapNumberWithoutTemp {
         a = a - b;
         System.out.println("a = " + a);
         System.out.println("b = " + b);
-        
+
     }
 }

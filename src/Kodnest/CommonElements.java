@@ -22,4 +22,5 @@ public class CommonElements {
         }
         System.out.println("Common Elements: " + res);
     }
+    
 }

@@ -39,7 +39,6 @@ public class ContainerWithMostWater {
                 maxWater = Math.max(maxWater, area);
             }
         }
-
         return maxWater;
     }
     public static void main(String[] args) {

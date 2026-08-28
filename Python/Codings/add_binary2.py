@@ -13,7 +13,7 @@ class Solution:
             i -= 1
             j -= 1
         return "".join(reversed(result))
-    
+
 def main():
     a = input().strip()
     b = input().strip()

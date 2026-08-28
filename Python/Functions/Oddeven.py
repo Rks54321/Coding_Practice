@@ -4,4 +4,5 @@ def oddeven(num):
     else:
         print('Number is odd')
 
+
 oddeven(3)

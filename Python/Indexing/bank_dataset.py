@@ -98,6 +98,7 @@ after crediting their bonus amount.'''
 Company has decided if the age of the customer is less than 25 then his balance will be credited with 2000
 and if it is above then credit 1000.
 '''
+
 age = banking_array[:,0]
 balance = banking_array[:,3]
 cond1 = (age < 25)

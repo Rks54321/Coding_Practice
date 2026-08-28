@@ -6,7 +6,6 @@ def process_votes(vote_dict):
     valid_votes = []
 
 def main():
-
     try:
         data = input().strip()
         vote_dict = json.loads(data)

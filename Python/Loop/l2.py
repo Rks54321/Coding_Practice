@@ -3,5 +3,5 @@ fact = 1
 while num:
     fact = fact * num
     num -= 1
-    
+
 print(fact)
